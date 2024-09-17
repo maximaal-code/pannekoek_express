@@ -21,8 +21,8 @@
 	</div>
 	<NavUl>
 		<NavLi href="/">Over</NavLi>
-		<NavLi href="/pricing">Menu</NavLi>
-		<NavLi href="/about">Volg het spoor</NavLi>
+		<NavLi href="/menu">Menu</NavLi>
+		<NavLi href="/spoor">Volg het spoor</NavLi>
 		<NavLi href="/contact">Contact</NavLi>
 	</NavUl>
 </Navbar>
