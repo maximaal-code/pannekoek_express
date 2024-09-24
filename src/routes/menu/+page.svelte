@@ -6,19 +6,20 @@
 				naam: 'De Klapper van de Klapperboom',
 				beschrijving: 'Pannenkoek met kokos, Nutella en aardbeien.',
 				prijs: '€7,50',
-				afbeelding: 'https://via.placeholder.com/300x200' // Vervang dit met echte afbeelding
+				afbeelding: 'menu/Kokospannenkoekjes-4-4.jpg' // Vervang dit met echte afbeelding
 			},
 			{
 				naam: 'De Chocolade Express',
 				beschrijving: 'Met een overvloed aan chocoladesaus, bananen en slagroom.',
 				prijs: '€8,00',
-				afbeelding: 'https://via.placeholder.com/300x200'
+				afbeelding: 'https://uitpaulineskeuken.nl/wp-content/uploads/2014/12/flensjestaart-3.jpg'
 			},
 			{
 				naam: 'De Zoete Wagon',
 				beschrijving: 'Pannenkoek met blauwe bessen, ahornsiroop en een bolletje vanille-ijs.',
 				prijs: '€8,50',
-				afbeelding: 'https://via.placeholder.com/300x200'
+				afbeelding:
+					'https://uitpaulineskeuken.nl/wp-content/smush-webp/2018/01/Blueberry-pancakes-2-2.jpg.webp'
 			}
 		],
 		hartig: [
@@ -26,19 +27,21 @@
 				naam: 'De Stoere Conducteur',
 				beschrijving: 'Pannenkoek met spek, kaas en champignons.',
 				prijs: '€9,00',
-				afbeelding: 'https://via.placeholder.com/300x200'
+				afbeelding:
+					'https://uitpaulineskeuken.nl/wp-content/smush-webp/2017/12/hartige-pannenkoek-3209.jpg.webp'
 			},
 			{
 				naam: 'De Lokomotief Burger',
 				beschrijving: 'Pannenkoek gevuld met gehakt, kaas en barbecue-saus.',
 				prijs: '€9,50',
-				afbeelding: 'https://via.placeholder.com/300x200'
+				afbeelding: 'menu/treinburger.webp'
 			},
 			{
 				naam: 'De Spoorchef',
 				beschrijving: 'Spinazie, feta en tomaat voor de liefhebbers van iets gezonds.',
 				prijs: '€8,50',
-				afbeelding: 'https://via.placeholder.com/300x200'
+				afbeelding:
+					'https://uitpaulineskeuken.nl/wp-content/smush-webp/2017/12/hartige-pannenkoek-3209.jpg.webp'
 			}
 		],
 		speciaal: [
@@ -47,7 +50,8 @@
 				beschrijving:
 					'Pannenkoek met geitenkaas, walnoten en honing (alleen deze maand beschikbaar!).',
 				prijs: '€10,00',
-				afbeelding: 'https://via.placeholder.com/300x200'
+				afbeelding:
+					'https://uitpaulineskeuken.nl/wp-content/smush-webp/2020/09/Griekse-yoghurt-pannenkoekjes-4-4.jpg.webp'
 			}
 		],
 		kinderen: [
@@ -55,7 +59,8 @@
 				naam: 'Treintje Pannenkoek',
 				beschrijving: 'Kleine pannenkoekjes met keuze uit verschillende toppings.',
 				prijs: '€5,00',
-				afbeelding: 'https://via.placeholder.com/300x200'
+				afbeelding:
+					'https://uitpaulineskeuken.nl/wp-content/uploads/2020/06/marokkaanse-pannenkoekjes-1275.jpg'
 			}
 		]
 	}
