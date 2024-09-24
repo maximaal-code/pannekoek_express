@@ -8,6 +8,7 @@
 
 	import images from '$lib/images.json'
 	import { goto } from '$app/navigation'
+	import { Rating} from 'flowbite-svelte';
 
 	const duration = 3000
 
@@ -23,7 +24,7 @@
 </script>
 
 <div class="p-8">
-	<Banner id="bottom-banner" position="absolute" bannerType="bottom">
+	<!-- <Banner id="bottom-banner" position="absolute" bannerType="bottom">
 		<p class="flex items-center text-sm font-normal text-gray-500 dark:text-gray-400">
 			<span class="me-3 inline-flex rounded-full bg-gray-200 p-1 dark:bg-gray-600">
 				<SalePercentSolid class="h-4 w-4 text-gray-500 dark:text-gray-400" />
@@ -38,7 +39,7 @@
 				</a>
 			</span>
 		</p>
-	</Banner>
+	</Banner> -->
 
 	<Carousel {images} {duration} let:Controls>
 		<Controls />
@@ -111,6 +112,7 @@
 						"De beste pannenkoeken die ik ooit heb geproefd! En dat vanuit zo'n gezellige
 						foodtruck."
 					</p>
+					<Rating divClass="flex justify-center" id="example-1b" total={5} size={50} rating={5} />
 					<p class="mt-4 text-sm text-gray-500">– Sophie J.</p>
 				</div>
 				<!-- Testimonial 2 -->
@@ -118,15 +120,28 @@
 					<p class="text-lg italic text-gray-700">
 						"Fantastische ervaring, van de heerlijke pannenkoeken tot het vriendelijke personeel!"
 					</p>
-					<p class="mt-4 text-sm text-gray-500">– Mark V.</p>
+					<Rating divClass="flex justify-center" id="example-1b" total={5} size={50} rating={5} />
+
+					<p class="mt-4 text-sm text-gray-500">– Max M.</p>
+				</div>
+				<!-- Testimonial 4 -->
+				<div class="rounded-lg bg-white p-6 shadow-lg">
+					<p class="text-lg italic text-gray-700">
+						"MMMMMMMMMMM yammy yum yum! Echt H.D.P"
+					</p>
+					<Rating divClass="flex justify-center" id="example-1b" total={5} size={50} rating={4.66} />
+					<p class="mt-4 text-sm text-gray-500">– Annemarie M.</p>
 				</div>
 				<!-- Testimonial 3 -->
 				<div class="rounded-lg bg-white p-6 shadow-lg">
 					<p class="text-lg italic text-gray-700">
 						"Geweldige smaak en een unieke presentatie. Ik kan niet wachten om terug te komen!"
 					</p>
+					<Rating divClass="flex justify-center" id="example-1b" total={5} size={50} rating={4} />
+
 					<p class="mt-4 text-sm text-gray-500">– Lisa K.</p>
 				</div>
+
 			</div>
 		</div>
 	</section>

@@ -1,13 +1,14 @@
 <script>
 	// Dummy data voor komende locaties
 	const upcomingLocations = [
-		{ datum: 'Maandag 12 september', locatie: 'Utrecht Centraal', tijd: '10:00 - 18:00' },
-		{ datum: 'Woensdag 14 september', locatie: 'Amsterdam Zuid', tijd: '11:00 - 19:00' },
-		{ datum: 'Vrijdag 16 september', locatie: 'Den Haag Centrum', tijd: '12:00 - 20:00' }
+		{ datum: '12 oktober', locatie: 'Groningen Centraal', tijd: '10:00 - 18:00' },
+		{ datum: '14 oktober', locatie: 'Amsterdam Centraal', tijd: '11:00 - 19:00' },
+		{ datum: '16 oktober', locatie: 'Amesfoort Centraal', tijd: '12:00 - 20:00' },
+		{ datum: '20 oktober', locatie: 'Hoorn kersenboogerd station', tijd: '12:00 - 20:00' }
 	]
 
 	// Actuele locatie - hier kun je een live locatie van Google Maps integreren
-	const currentLocation = 'Rotterdam Centraal'
+	const currentLocation = 'Het clubhuis 🏟️'
 
 	const openGoogleMaps = () => {
 		// Deze functie stuurt de gebruiker naar Google Maps voor routebeschrijvingen
@@ -63,9 +64,9 @@
 					<tbody>
 						{#each upcomingLocations as stop}
 							<tr>
-								<td class="border-t p-4">{stop.datum}</td>
-								<td class="border-t p-4">{stop.locatie}</td>
-								<td class="border-t p-4">{stop.tijd}</td>
+								<td class="border-t p-4 text-gray-600">{stop.datum}</td>
+								<td class="border-t p-4 text-gray-600">{stop.locatie}</td>
+								<td class="border-t p-4 text-gray-600">{stop.tijd}</td>
 							</tr>
 						{/each}
 					</tbody>

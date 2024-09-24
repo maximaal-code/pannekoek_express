@@ -1,6 +1,5 @@
 <script lang="ts">
 	import '../app.css'
-	import { DarkMode } from 'flowbite-svelte'
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte'
 </script>
 
@@ -16,7 +15,6 @@
 		>
 	</NavBrand>
 	<div class="flex md:order-2">
-		<DarkMode />
 		<NavHamburger />
 	</div>
 	<NavUl>
